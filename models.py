@@ -24,7 +24,7 @@ class NMIClassifier(nn.Module):
             nn.ReLU()
         )
 
-        # EDS branch — small MLP
+        # EDS branch
         self.eds_encoder = nn.Sequential(
             nn.Linear(n_eds_features, 128),
             nn.ReLU(),
