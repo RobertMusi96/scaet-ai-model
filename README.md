@@ -65,7 +65,7 @@ model was trained on.
 
 **EDS composition**
 
-- Provide the quantified composition as a Python dictionary mapping element symbol to weight percentage (e.g. `{"Fe (Wt%)": 53.9, "Al (Wt%)": 22.2, "O (Wt%)": 18.4}`)
+- Provide the quantified composition as a Python dictionary mapping element symbol to weight percentage (e.g. `{"Fe": 53.9, "Al": 22.2, "O": 18.4}`)
 - Elements not present in your data can be omitted — they are treated as 0 wt%
 - The preprocessing script standardizes the composition using the training-set statistics from `metadata_public.json`
 

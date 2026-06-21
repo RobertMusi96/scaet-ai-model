@@ -105,10 +105,10 @@ def main():
     # User-provided inputs
     image_path = Path("path/to/your/bse_image.png")
     eds_dict = {
-        "Fe (Wt%)": 53.88,
-        "Al (Wt%)": 22.23,
-        "O (Wt%)": 18.38,
-        "C (Wt%)": 5.51,
+        "Fe": 53.88,
+        "Al": 22.23,
+        "O": 18.38,
+        "C": 5.51,
         # Elements not listed are assumed to be 0 wt%
     }
 
